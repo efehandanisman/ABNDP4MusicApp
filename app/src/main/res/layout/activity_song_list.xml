@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.abnd_p4_musicapp.songList">
+
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="414dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding16"
+        android:paddingLeft="@dimen/padding16"
+        android:paddingRight="@dimen/padding16"
+        android:paddingTop="@dimen/padding16" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backtonowplaying"
+            android:text="@string/go_back"
+        android:layout_gravity="center_horizontal">
+    </Button>
+
+</LinearLayout>
+</ScrollView>

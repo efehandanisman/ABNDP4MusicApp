@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.abnd_p4_musicapp.NowPlaying">
+
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="130dp"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="@dimen/dp100"
+        android:layout_height="@dimen/dp100"
+        android:id="@+id/back"
+        android:layout_marginLeft="@dimen/dp40"
+        android:background="@null"
+        android:src="@drawable/arrow_left"
+        />
+
+    <ImageButton
+        android:layout_width="@dimen/dp100"
+        android:layout_height="@dimen/dp100"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/playstop"
+        android:background="@null"
+        android:layout_marginTop="@dimen/dp50"
+        android:src="@drawable/play"
+        />
+    <ImageButton
+        android:layout_width="@dimen/dp100"
+        android:layout_height="@dimen/dp100"
+        android:layout_marginRight="@dimen/dp40"
+        android:background="@null"
+        android:id="@+id/next"
+        android:src="@drawable/arrow_right"
+         />
+</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/songfromList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        tools:text="Tarkan - Kuzu Kuzu"/>
+
+
+    <Chronometer
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:countDown="false"
+        android:format="MM:SS"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/timer"
+        android:layout_marginTop="25dp"
+        />
+
+    <ImageButton
+        android:layout_width="@dimen/dp100"
+        android:layout_height="@dimen/dp100"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/note"
+        android:background="@null"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/note"
+        />
+
+</LinearLayout>
+
